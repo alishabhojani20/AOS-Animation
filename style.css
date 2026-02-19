@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 100%;
+    min-height: 100vh; 
+    background-color: cornflowerblue;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.font{
+    font-size: 60px;
+    margin-right: 3%;
+}
+
+.child {
+    width: 320px;
+    height: 250px;
+    border: 3px solid grey;
+    background-color: white;
+
+}
